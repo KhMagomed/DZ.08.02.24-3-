@@ -7,11 +7,13 @@ public class Main {
         // параметров программы: начального счёта,
         // суммы пополнения и тп
         int initialAccount = 100;
-        int pay = 1400;
+        int pay = 900;
         int bonus = pay / 100;
 
         if (pay >= 1000) {
-            System.out.println(initialAccount + pay + bonus );
+            System.out.println(initialAccount + pay + bonus);
+        } else {
+            System.out.println(initialAccount + pay);
         }
 
         // Условным оператором проверяете, превысила ли
